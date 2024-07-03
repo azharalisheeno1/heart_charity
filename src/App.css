@@ -1,0 +1,22 @@
+/* Add this CSS to your stylesheet */
+
+
+
+
+/* Add this to your CSS file, like src/index.css */
+.card:hover .card-img {
+  transform: scale(1);
+}
+
+.card-img {
+  transition: transform 1s ease;
+}
+
+.card:hover .card-text {
+  transform: scale(1.05);
+}
+
+.card-text {
+  transition: transform 0.5s ease;
+  transform: scale(0.95);
+}
